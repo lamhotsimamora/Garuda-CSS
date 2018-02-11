@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+ font-family: 'Raleway', sans-serif;
+}
+
+/* CSS Class Container Bootstrap */
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* CSS Class Container Bootstrap */
+
+/* CSS Garuda */
+h1,h2,h3,h4 {
+	color:#595959;
+	text-shadow: 1px 1px 1px #aaa;
+}
+
+[class*="btn-"]{
+	font-family: 'Raleway', sans-serif;
+	border:none;
+	text-align: center;
+	font-size: 15px; 
+	text-decoration: none;
+	padding: 10px 15px;
+	border-radius: 6px;
+	color:#f8f9fa;
+}
+
+hr{
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+button:hover{
+	box-shadow: 0 0 1px 1.5px rgba(0, 180, 240, 0.57);
+}
+
+.btn-danger {
+	background-color:#fa5252;
+}
+
+.btn-info {
+	background-color:#228be6;
+}
+
+.btn-warning {
+	background-color:#fab005;
+}
+
+.btn-success {
+	background-color:#12b886;
+}
+
+.btn-default {
+	background-color:#868e96;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+	display: block;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+[class*="input-"]{
+	font-family: 'Raleway', sans-serif;
+	width: 100%;
+	padding: 10px 15px;
+	margin: 6px 0;
+	box-sizing: border-box;
+	font-size: 16px; 
+	border-radius: 4px;
+}
+
+.input-danger {
+	border-color:#ff8787;
+}
+
+.input-info {
+	border-color:#4dabf7;
+}
+
+.input-warning {
+	border-color:#ffd43b;
+}
+
+.input-success {
+	border-color:#38d9a9;
+}
+
+.input-default {
+	background-color:#868e96;
+}
+
+[class*="select-"]{
+	font-family: 'Raleway', sans-serif;
+	width: 100%;
+	padding: 10px 15px;
+	margin: 6px 5;
+	box-sizing: border-box;
+	font-size: 16px; 
+	border-radius: 4px;
+}
+
+.select-danger {
+	border-color:#ff8787;
+}
+
+.select-info {
+	border-color:#4dabf7;
+}
+
+.select-warning {
+	border-color:#ffd43b;
+}
+
+.select-success {
+	border-color:#38d9a9;
+}
+
+.select-default {
+	background-color:#868e96;
+}
+
+.image{
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	width: 150px;
+}
+
+.image:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/* CSS Garuda */
