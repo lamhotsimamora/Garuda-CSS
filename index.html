@@ -5,6 +5,9 @@
 	<title>Garuda CSS</title>
 	<link rel="stylesheet" type="text/css" href="src/garuda.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript" src="https://www.cdn.lamhotsimamora.com/garuda2/"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
 </head>
 <body>
 	
@@ -50,7 +53,115 @@
 
 	<div class="container">
 		<a href="img/paris.jpg"><img width="100px" height="100px" src="img/paris.jpg" class="image"></a>
+		<hr>
+		<button class="btn-info" id="btn_modal_info">Modal Info</button>
+		<button class="btn-warning" id="btn_modal_warning">Modal Warning</button>
+		<button class="btn-default" id="btn_modal_default">Modal Default</button>
+		<button class="btn-success" id="btn_modal_success">Modal Success</button>
+		<button class="btn-danger" id="btn_modal_danger">Modal Danger</button>
 	</div>
+
+<!--- Start Modal -->
+<!--- Contributor Stefanus -->
+		<!--Modal Info-->
+		<div id="modal_info" class="garudamodal">
+		<div class="gm-content">
+		  <div class="gm-header-info">
+		      <span class="closeBtn" id="closeModalInfo">&times;</span>
+		      <h2 style="color: white">Modal Header</h2>
+		  </div>
+		  <div class="gm-body">
+		    <p>Hello...I am a modal</p>
+		    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa velit repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam nemo commodi ab >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa velit repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam nemo commodi ab</p>
+		    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa velit repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam nemo commodi ab >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa velit repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam nemo commodi ab</p>
+		  </div>
+		  <div class="gm-footer">
+		  <button class="btn-success">Ok</button>
+		  </div>
+		</div>
+		</div>
+		<!--Akhir Modal Info-->
+
+		<!--Awal Modal Danger-->
+		<div id="modal_danger" class="garudamodal">
+		<div class="gm-content">
+		  <div class="gm-header-danger">
+		      <span class="closeBtn" id="closeModalDanger">&times;</span>
+		      <h2 style="color: white">Modal Header</h2>
+		  </div>
+		  <div class="gm-body">
+		    <p>Hello...I am a modal</p>
+		    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa velit repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam nemo commodi ab >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa velit repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam nemo commodi ab</p>
+		    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa velit repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam nemo commodi ab >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa velit repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam nemo commodi ab</p>
+		  </div>
+		  <div class="gm-footer">
+			<button class="btn-success">Ok</button>
+		  </div>
+		</div>
+		</div>
+		<!--Akhir Modal Danger-->
+
+		<!--Awal Modal Warning-->
+		<div id="modal_warning" class="garudamodal">
+		<div class="gm-content">
+		  <div class="gm-header-warning">
+		      <span class="closeBtn" id="closeModalWarning">&times;</span>
+		      <h2 style="color: white">Modal Header</h2>
+		  </div>
+		  <div class="gm-body">
+		    <p>Hello...I am a modal</p>
+		    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa velit repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam nemo commodi ab >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa velit repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam nemo commodi ab</p>
+		   
+		  </div>
+		  <div class="gm-footer">
+		   <button class="btn-success">Ok</button>
+		  </div>
+		</div>
+		</div>
+		<!--Akhir Modal Warning-->
+
+		<!--Awal Modal Success-->
+		<div id="modal_success" class="garudamodal">
+		<div class="gm-content">
+		  <div class="gm-header-success">
+		      <span class="closeBtn" id="closeModalSuccess">&times;</span>
+		     <h2 style="color: white">Modal Header</h2>
+		  </div>
+		  <div class="gm-body">
+		    <p>Hello...I am a modal</p>
+		    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa velit repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam nemo commodi ab >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa velit repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam nemo commodi ab</p>
+		    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa velit repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam nemo commodi ab >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa velit repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam nemo commodi ab</p>
+		  </div>
+		  <div class="gm-footer">
+		    <button class="btn-success">Ok</button>
+		  </div>
+		</div>
+		</div>
+		<!--Akhir Modal Warning-->
+
+		<!--Awal Modal Default-->
+		<div id="modal_default" class="garudamodal">
+		<div class="gm-content">
+		  <div class="gm-header-default">
+		      <span class="closeBtn" id="closeModalDefault">&times;</span>
+		      <h2 style="color: white">Modal Header</h2>
+		  </div>
+		  <div class="gm-body">
+		    <p>Hello...I am a modal</p>
+		    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa velit repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam nemo commodi ab >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa velit repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam nemo commodi ab</p>
+		    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa velit repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam nemo commodi ab >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa velit repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam nemo commodi ab</p>
+		  </div>
+		  <div class="gm-footer">
+		   <button class="btn-success">Ok</button>
+		  </div>
+		</div>
+		</div>
+		<!--Akhir Modal Warning-->
+		<!---ENd Modal -->
+</div>
+
 </body>
-	
+
+<script type="text/javascript" src="app/index.js"></script>
+
 </html>

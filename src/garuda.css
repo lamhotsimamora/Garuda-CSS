@@ -154,3 +154,170 @@ p{
 }
 
 /* CSS Garuda */
+
+/* 
+* Contributor Stefanus Prasetyo Nugroho | Modal
+*/
+/* Garuda Modal Info  */
+.garudamodal {
+	display:none;
+	position: fixed;
+	z-index:1;
+	left: 0;
+	top:0;
+	height: 100%;
+	width:100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.5); 
+}
+.gm-content{
+	background-color:#f4f4f4;
+	margin: 6% auto;
+	width:70%;
+	-webkit-box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+	box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+	-webkit-transition: -webkit-transform .3s ease-out;
+	transition: -webkit-transform .3s ease-out;
+	-o-transition: -o-transform .3s ease-out;
+	transition: transform .3s ease-out;
+	transition: transform .3s ease-out, -webkit-transform .3s ease-out, -o-transform .3s ease-out;
+	-webkit-transform: translate(0, -25%);
+	-o-transform: translate(0, -25%);
+	transform: translate(0, -25%);
+	-webkit-transform: translate(0, 0);
+	-o-transform: translate(0, 0);
+	transform: translate(0, 0);
+	text-align: left;
+	border-radius: .3rem;
+}
+
+.gm-header-info  h2  , .gm-footer h3 {
+	margin:0;
+}
+
+.gm-header-info{
+	background:  #0275d8;
+	padding:15px;
+	color:#fff;
+	border-bottom: 1px solid #eceeef
+}
+.gm-body{
+	position: relative;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	padding: 15px
+}
+.gm-footer{
+	background: white;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	padding: 15px;
+	border-top: 1px solid #eceeef;
+	color: white;
+}
+.gm-footer>:not(:first-child) {
+    margin-left: .25rem
+}
+
+.gm-footer>:not(:last-child) {
+    margin-right: .25rem
+}
+.closeBtn{
+  color:black;
+  float: right;
+  font-size:30px;
+  color:#fff;
+}
+
+.closeBtn:hover,.closeBtn:focus{
+  color:#000;
+  text-decoration: none;
+  cursor:pointer;
+}
+/* End Garuda Modal Info */
+
+/* Garuda Modal Danger */
+.gm-header-danger  h2  , .gm-footer h3 {
+  margin:0;
+}
+.gm-header-danger{
+  background: red;
+   padding:15px;
+  color:#fff;
+    border-bottom: 1px solid #eceeef;
+
+}
+/* Akhir Garuda Modal Danger*/
+
+/* Awal Garuda Modal Success */
+.gm-header-success h2,
+.gm-footer h3 {
+    margin: 0;
+}
+.gm-header-success {
+    background: #12b886;
+    padding: 15px;
+    color: #fff;
+    border-bottom: 1px solid #eceeef;
+}
+/* End Garuda Modal Success */
+
+/* Garuda Modal Default */
+.gm-header-default h2,
+.gm-footer h3 {
+    margin: 0;
+}
+.gm-header-default {
+    background: #868e96;
+    padding: 15px;
+    color: #fff;
+    border-bottom: 1px solid #eceeef;
+}
+/* End Garuda Modal Default */
+
+/* Garuda Modal Warning */
+.gm-header-warning h2,
+.gm-footer h3 {
+    margin: 0;
+}
+.gm-header-warning {
+    background: #fab005;
+    padding: 15px;
+    color: #fff;
+    border-bottom: 1px solid #eceeef;
+}
+/* End Garuda Modal Warning */
+
+
+@media (min-width: 768px) {
+    .garuda-modal {
+        max-width: 500px;
+        margin: 30px auto;
+    }
+}
+@media (min-width: 992px) {
+    .garuda-modal {
+        max-width: 500px;
+        margin: 30px auto;
+        overflow: scroll;
+    }
+}
+@media (min-width: 1200px) {
+    .garuda-modal {
+        max-width: 500px;
+        margin: 30px auto;
+        overflow: scroll;
+    }
+}
