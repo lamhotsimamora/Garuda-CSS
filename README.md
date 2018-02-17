@@ -1,6 +1,10 @@
 # Garuda-CSS
 Garuda CSS is open source. Everyone can be contributor in this project. 
 
+## CDN
+1. Unminified <a href="https://cdn.rawgit.com/lamhotsimamora/Garuda-CSS/master/src/garuda.css">https://cdn.rawgit.com/lamhotsimamora/Garuda-CSS/master/src/garuda.css</a>
+2. Minified   <a href="https://cdn.rawgit.com/lamhotsimamora/Garuda-CSS/master/src/garuda.min.css">https://cdn.rawgit.com/lamhotsimamora/Garuda-CSS/master/src/garuda.min.css</a>
+
 ## Contributor 
 
 <a href="https://github.com/stefanuspn">
